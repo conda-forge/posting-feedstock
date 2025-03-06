@@ -1,6 +1,6 @@
 context:
   name: posting
-  version: "2.4.0"
+  version: "2.4.1"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 7784cc49eaeed3ea78252ad4fff20db49284aa1e29a33ed21ed4920bfdbf58c4
+  sha256: c373e3f83f323f0d592241bc0cf678d68ba6856360f214a1ea61b7a23b07ea4a
   patches:
     - change-xdg-package-name.patch
 
