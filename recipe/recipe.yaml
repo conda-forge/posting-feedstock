@@ -38,8 +38,8 @@ requirements:
     - pyyaml >=6.0.2,<7.0.0
     - pydantic-settings >=2.4.0,<3.0.0
     - python-dotenv >=1.0.1,<2.0.0
-    - textual >=2.1.2,<2.2.0
-    - textual-autocomplete ==4.0.0a0
+    - textual ==3.0.0
+    - textual-autocomplete >=4.0.4, <5.0.0
     - watchfiles >=0.24.0
 
 tests:
