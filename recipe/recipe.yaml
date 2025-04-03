@@ -1,6 +1,6 @@
 context:
   name: posting
-  version: "2.5.4"
+  version: "2.6.0"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: c066531a98a92dd343a6b639e230025cc9998ba73a992cf9f5af4a9fe02a82fc
+  sha256: d4654399299b2d0d226c5ad806d452fe6a94931569609cb283f100052745bf91
   patches:
     - change-xdg-package-name.patch
 
@@ -38,8 +38,8 @@ requirements:
     - pyyaml >=6.0.2,<7.0.0
     - pydantic-settings >=2.4.0,<3.0.0
     - python-dotenv >=1.0.1,<2.0.0
-    - textual >=2.1.2,<2.2.0
-    - textual-autocomplete ==4.0.0a0
+    - textual ==3.0.0
+    - textual-autocomplete >=4.0.4, <5.0.0
     - watchfiles >=0.24.0
 
 tests:
