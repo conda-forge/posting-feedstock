@@ -39,7 +39,7 @@ requirements:
     - pydantic-settings >=2.4.0,<3.0.0
     - python-dotenv >=1.0.1,<2.0.0
     - textual ==6.1.0
-    - textual-autocomplete >=4.0.4, <5.0.0
+    - textual-autocomplete ==4.0.6
     - watchfiles >=0.24.0
 
 tests:
