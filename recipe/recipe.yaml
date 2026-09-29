@@ -1,7 +1,6 @@
 context:
   name: posting
   version: "2.11.0"
-  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
